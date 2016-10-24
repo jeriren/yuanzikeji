@@ -1,0 +1,249 @@
+
+  * {padding:0px;margin:0px;}
+	/*第一部分*/
+  #d1 {
+	height:100px;
+  }
+  #d1 img {
+	padding-left:80px;
+	width: 200px;
+	height:100px;
+	float:left;
+  }
+  #d1 table {
+	padding-left:100px;
+	height:100px;
+  }
+  #d1 td{
+	text-align:center;
+  }
+  #d1 ul{
+	list-style-type:none;
+	text-align:left;
+	padding:0px;
+	margin:0px;
+	width:80px;
+	height:0px;
+	overflow:hidden;	
+  }
+  #d1 ul li{
+	height:20px;
+	padding-top:3px;
+    background-color:#9ACD32;
+	border: 1px solid white;
+	font-size:13px;
+	text-align:center;
+	position:relative;
+	z-index:10;
+  }
+  #d1 a {
+	text-decoration:none;
+	color:black;
+	font-family:"Microsoft YaHei";
+  }
+  #d1 ul li a{
+	color:white;
+  }
+  #d1 ul li a:hover{
+	border:1px solid black;
+  }
+
+  /*第二部分*/
+	#d2 {
+	height:150px;
+	width:100%;
+	background:url(../img/product_back.jpg);
+	background-position:center;
+	position:relative;
+	}
+	#subd2{
+	position:relative;
+	left:500px;
+	top:55px;
+	}
+	#subd2 div{
+	height:25px;
+	width:80px;
+	padding-top:5px;
+	border:1px solid black;
+	margin:2px;
+	border-radius:5px;
+	text-align:center;
+	font-size:15px;
+	background-color:white;
+	position:relative;
+	float:left;
+	z-index:1;
+	}
+	#subd2 div a{
+	text-decoration:none;
+	color:black;
+	font-family:"Microsoft YaHei";
+	}
+
+	/*第三阶段*/
+	#d3{
+	height:100%;
+	width:100%;
+	padding-left:150px;
+	padding-bottom:30px;
+	}
+	/*sub1*/
+	#sub1,#sub2,#sub3{
+	position:relative;
+	width:100%;
+	height:250px;
+	}
+	#sub1 div,#sub2 div,#sub3 div{
+	float:left;
+	overflow:visible;
+	}
+	#d3 img{
+	width:200px;
+	height:180px;
+	padding: 30px;
+	}
+	.sub1d1{
+	background-color: #778899;
+	width:200px;
+	height:30px;
+	padding-top:5px;
+	position:absolute;
+	top:180px;
+	left:30px;
+	text-align:center;
+	}
+	.span1{
+		font-family:"Times New Roman";
+		font-size:16px;
+		color:black;
+	}
+	.span2{
+		font-size:14px;
+		color:green;
+		display:none;
+		color:black;
+		
+	}
+	.sub1d2{
+	background-color: #778899;
+	width:200px;
+	height:30px;
+	padding-top:5px;
+	position:absolute;
+	top:180px;
+	left:290px;
+	text-align:center;
+	}
+	.sub1d3{
+	background-color: #778899;
+	width:200px;
+	height:30px;
+	padding-top:5px;
+	position:absolute;
+	top:180px;
+	left:550px;
+	text-align:center;
+	}
+	.sub1d4{
+	background-color: #778899;
+	width:200px;
+	height:30px;
+	padding-top:5px;
+	position:absolute;
+	top:180px;
+	left:810px;
+	text-align:center;
+	}
+	#d3 a{
+	text-decoration:none;
+	color:black;
+	}
+	#d3 p{
+	background-color:#778899;
+	font-size:12px;
+	padding:10px;
+	display:none;
+	text-align:center;
+	color:#E0EEE0;
+	}
+
+/*第四部分*/
+	#pd4{
+	width:100%;
+	height:350px;
+	position:relative;
+	background-color:#1E1E1E;
+	}
+	#d4{
+		height:400px;
+		width:1000px;
+		position:relative;
+		left:150px;
+		vertical-align:middle;
+	}
+	#d4 div{
+	height:300px;
+	width:100px;
+	float:left;
+	padding-left:50px;
+	padding-right:50px;
+	background-color:#1E1E1E;
+	}
+	
+	#d4 ul li{
+	padding:2px;
+	list-style-type:none;
+	}
+	#d4 div h3{
+	color: 	#EDEDED;
+	font-family:"Microsoft YaHei";
+	padding-top:15px;
+	}
+	#d4 img{
+		padding-top:60px;
+	}
+	#d4 div a,#d4 div span{
+	text-decoration:none;
+	font-family:"Microsoft YaHei";
+	color: #A6A6A6;
+	font-size:12px;
+	}
+	/*第五部分*/
+	#d5{
+	 background-color:black;
+	 width:100%;
+	 height:50px;
+	 text-align:center;
+	}
+	#d5 span{
+	 color:#A6A6A6;
+	 font-family:"Times New Roman";
+	 font-size:13px;
+	 position:relative;
+	 top:13px;
+	}
+	/*广告*/
+	#banner{
+	height:200px;
+	width:150px;
+	position:fixed;
+	top:420px;
+	left:1200px;
+	}
+	
+	#banner img{
+	height:200px;
+	width:150px;
+	z-index:1;
+	}
+	#banner p{
+	z-index:5;
+	position:relative;
+	top:-60px;
+	left:10px;
+	font-size:12px;
+	color:#A52A2A;
+	font-style:bold;
+	}
+

@@ -1,0 +1,95 @@
+
+window.onload=function(){
+	document.querySelector("#nav1").onmouseover=function()
+		 {document.querySelector("#nav1+ul").style.overflow="visible";
+	}
+	document.querySelector("#nav1").onmouseout=function(){
+		document.querySelector("#nav1+ul").style.overflow="hidden";}
+//nav2
+	document.querySelector("#nav2").onmouseover=function()
+		 {document.querySelector("#nav2+ul").style.overflow="visible";}
+	document.querySelector("#nav2").onmouseout=function(){
+		document.querySelector("#nav2+ul").style.overflow="hidden";}
+//nav3
+	 document.querySelector("#nav3").onmouseover=function()
+		 {document.querySelector("#nav3+ul").style.overflow="visible";}
+	 document.querySelector("#nav3").onmouseout=function(){
+		document.querySelector("#nav3+ul").style.overflow="hidden";}
+//nav4
+	 document.querySelector("#nav4").onmouseover=function()
+		 {document.querySelector("#nav4+ul").style.overflow="visible";}
+	 document.querySelector("#nav4").onmouseout=function(){
+		document.querySelector("#nav4+ul").style.overflow="hidden";}
+//nav5
+	  document.querySelector("#nav5").onmouseover=function()
+		 {document.querySelector("#nav5+ul").style.overflow="visible";}
+	  document.querySelector("#nav5").onmouseout=function(){
+		document.querySelector("#nav5+ul").style.overflow="hidden";}
+//nav6
+	  document.querySelector("#nav6").onmouseover=function()
+		 {document.querySelector("#nav6+ul").style.overflow="visible";}
+	  document.querySelector("#nav6").onmouseout=function(){
+		document.querySelector("#nav6+ul").style.overflow="hidden";}
+//nav7
+	  document.querySelector("#nav7").onmouseover=function()
+		 {document.querySelector("#nav7+ul").style.overflow="visible";}
+	  document.querySelector("#nav7").onmouseout=function(){
+		 document.querySelector("#nav7+ul").style.overflow="hidden";}
+//产品目录的颜色变化
+	var divchange=document.querySelectorAll("#subd2 div");
+	divchange[0].onmouseover=divchange[1].onmouseover=divchange[2].onmouseover=
+	divchange[3].onmouseover=divchange[4].onmouseover=mychange;
+	divchange[0].onmouseout=divchange[1].onmouseout=divchange[2].onmouseout=
+	divchange[3].onmouseout=divchange[4].onmouseout=myback;
+	function mychange(){
+		this.style.backgroundColor="#9ACD32";
+		this.childNodes[0].style.color="white";
+	}
+	function myback(){
+		this.style.backgroundColor="white";
+		this.childNodes[0].style.color="black";
+	}
+//图片字体修改
+	var picClass1=document.querySelectorAll("#sub1 div div");
+	picClass1[0].onmouseover=picClass1[1].onmouseover=
+	picClass1[2].onmouseover=picClass1[3].onmouseover=function(){
+		this.style.top=150+"px";
+		console.log(this.children[1]);
+		this.children[1].style.display="block";
+	}
+	picClass1[0].onmouseout=picClass1[1].onmouseout=
+	picClass1[2].onmouseout=picClass1[3].onmouseout=function(){
+		this.style.top=180+"px";
+		console.log(this.children[1]);
+		this.children[1].style.display="none";
+	}
+	//
+	var picClass2=document.querySelectorAll("#sub2 div div");
+	picClass2[0].onmouseover=picClass2[1].onmouseover=
+	picClass2[2].onmouseover=picClass2[3].onmouseover=function(){
+		this.style.top=150+"px";
+		console.log(this.children[1]);
+		this.children[1].style.display="block";
+	}
+	picClass2[0].onmouseout=picClass2[1].onmouseout=
+	picClass2[2].onmouseout=picClass2[3].onmouseout=function(){
+		this.style.top=180+"px";
+		console.log(this.children[1]);
+		this.children[1].style.display="none";
+	}
+	//
+	var picClass3=document.querySelectorAll("#sub3 div div");
+	picClass3[0].onmouseover=picClass3[1].onmouseover=
+	picClass3[2].onmouseover=picClass3[3].onmouseover=function(){
+		this.style.top=150+"px";
+		console.log(this.children[1]);
+		this.children[1].style.display="block";
+	}
+	picClass3[0].onmouseout=picClass3[1].onmouseout=
+	picClass3[2].onmouseout=picClass3[3].onmouseout=function(){
+		this.style.top=180+"px";
+		console.log(this.children[1]);
+		this.children[1].style.display="none";
+	}
+	
+}
